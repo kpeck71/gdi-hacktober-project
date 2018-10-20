@@ -1,5 +1,5 @@
 const DOG_API_URL = 'https://dog.ceo/api/breeds/image/random/9';
-const CAT_API_Url = 'https://api.thecatapi.com/v1/images/search?';
+const CAT_API_URL = 'https://api.thecatapi.com/v1/images/search?';
 
 function get(url) {
   return new Promise(function(resolve, reject) {
@@ -29,6 +29,7 @@ function loadImage(url) {
   list.appendChild(li);
   li.appendChild(img);
   img.setAttribute('src', url);
+
 }
 
 function loadMore() {
