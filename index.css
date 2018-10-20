@@ -1,6 +1,6 @@
 
 img {
-  height: 400px;
+  height: 300px;
   width: 300px;
 
 }
@@ -32,3 +32,12 @@ img {
 .dog score-section {
   align: left;
 }
+
+.pets {
+    text-decoration: none;
+}
+
+.pet-pic {
+    list-style-type: none;
+}
+  
