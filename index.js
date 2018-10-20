@@ -51,11 +51,10 @@ function loadImage(url) {
   img.setAttribute('src', url);
   li.setAttribute('class', 'pet-pic');
   //img.setAttribute('onClick', createSelectPlayerInsideThisFunction// 'selectPlayer()');
-
+}
 
 
 function loadMore() {
-
 	getDogs(DOG_API_URL)
   .then(function(dogResponse) {
   	let dogResp = JSON.parse(dogResponse);
