@@ -49,6 +49,7 @@ function loadImage(url) {
   list.appendChild(li);
   li.appendChild(img);
   img.setAttribute('src', url);
+  li.setAttribute('class', 'pet-pic');
 
 }
 
