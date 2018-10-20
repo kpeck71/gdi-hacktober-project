@@ -1,0 +1,17 @@
+.scoreboard {
+  font-size: 2em;
+  color: grey;
+  width: 100%;
+}
+
+.score-section {
+  color: red;
+}
+
+.cat score-section {
+  align: right;
+}
+
+.dog score-section {
+  align: left;
+}
