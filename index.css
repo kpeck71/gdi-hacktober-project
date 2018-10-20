@@ -5,11 +5,6 @@ img {
 
 }
 
-#score_keeper {
-    color: rgb(255, 0, 221);
-
-}
-
 .current-player-card {
   border:1px solid;
   width: 25%;
