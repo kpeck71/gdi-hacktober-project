@@ -50,6 +50,7 @@ function loadImage(url) {
   li.appendChild(img);
   img.setAttribute('src', url);
   li.setAttribute('class', 'pet-pic');
+  img.setAttribute('onClick', //createSelectPlayerInsideThisFunction 'selectPlayer()');
 
 }
 
