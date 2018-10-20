@@ -50,9 +50,9 @@ function loadImage(url) {
   li.appendChild(img);
   img.setAttribute('src', url);
   li.setAttribute('class', 'pet-pic');
-  img.setAttribute('onClick', //createSelectPlayerInsideThisFunction// 'selectPlayer()');
+  //img.setAttribute('onClick', createSelectPlayerInsideThisFunction// 'selectPlayer()');
 
-}
+
 
 function loadMore() {
 
@@ -80,5 +80,4 @@ function loadMore() {
      }, function(error) {
       console.error("Failed!", error);
      })
-   )
-}
+   })
