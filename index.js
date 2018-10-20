@@ -51,7 +51,7 @@ function loadImage(url) {
   img.setAttribute('src', url);
   li.setAttribute('class', 'pet-pic');
   //img.setAttribute('onClick', createSelectPlayerInsideThisFunction// 'selectPlayer()');
-
+}
 
 
 function loadMore() {
@@ -79,5 +79,6 @@ function loadMore() {
       console.log("Success for cats!", catResponse);
      }, function(error) {
       console.error("Failed!", error);
-     })
-   })
+    })
+  )
+   }
