@@ -55,7 +55,6 @@ function loadImage(url) {
 
 
 function loadMore() {
-
 	getDogs(DOG_API_URL)
   .then(function(dogResponse) {
   	let dogResp = JSON.parse(dogResponse);
