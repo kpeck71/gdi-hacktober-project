@@ -3,9 +3,11 @@
     <title>Cat vs Dogs</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="gameplay.js"></script>
   </head>
 
   <body onLoad=loadMore()>
+
     <div class="scoreboard">
         <div class="dog score-section">
           Dog wins: <span class="dog-score">0</span>
@@ -14,7 +16,6 @@
           Cat wins: <span class="cat-score">0</span>
         </div>
     </div>
-    <button onclick="playGame()">Start Game</button>
 
     <div class="current-player-card">
       <div class="info">
@@ -31,11 +32,12 @@
       <ul id="pets">
       </ul>
     </div>
+    <button onclick="playGame()">Start Game</button>
     <div id="game_result"></div>
 
 
 
    <script src="index.js"></script>
-   <script src="gameplay.js"></script>
+
   </body>
 </html>
