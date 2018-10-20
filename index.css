@@ -1,3 +1,4 @@
+
 img {
   height: 400px;
   width: 300px;
@@ -5,5 +6,28 @@ img {
 
 #score_keeper {
     color: rgb(255, 0, 221);
-  
+
+}
+
+.current-player-card {
+  border:1px solid;
+  width: 25%;
+
+}
+.scoreboard {
+  font-size: 2em;
+  color: grey;
+  width: 100%;
+}
+
+.score-section {
+  color: red;
+}
+
+.cat score-section {
+  align: right;
+}
+
+.dog score-section {
+  align: left;
 }
