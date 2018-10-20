@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kpeck71/gdi-hacktober-project/issues"
   },
-  "homepage": "https://github.com/kpeck71/gdi-hacktober-project#readme"
+  "homepage": "https://github.com/kpeck71/gdi-hacktober-project#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
 }
