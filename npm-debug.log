@@ -11,7 +11,7 @@
 7 info open cat-vs-dog@1.0.0
 8 verbose unsafe-perm in lifecycle true
 9 info cat-vs-dog@1.0.0 Failed to exec open script
-10 verbose stack Error: cat-vs-dog@1.0.0 open: `concurrently "http-server -a localhost -p 3001" "open http://localhost:3001/"`
+10 verbose stack Error: cat-vs-dog@1.0.0 open: `concurrently "http-server -a localhost -p 3000" "open http://localhost:3000/"`
 10 verbose stack Exit status 1
 10 verbose stack     at EventEmitter.<anonymous> (/Users/jsifre/Documents/GitHub/gdi-hacktober-project/node_modules/npm/lib/utils/lifecycle.js:217:16)
 10 verbose stack     at emitTwo (events.js:106:13)
@@ -28,13 +28,13 @@
 15 error node v6.11.2
 16 error npm  v2.15.12
 17 error code ELIFECYCLE
-18 error cat-vs-dog@1.0.0 open: `concurrently "http-server -a localhost -p 3001" "open http://localhost:3001/"`
+18 error cat-vs-dog@1.0.0 open: `concurrently "http-server -a localhost -p 3000" "open http://localhost:3000/"`
 18 error Exit status 1
-19 error Failed at the cat-vs-dog@1.0.0 open script 'concurrently "http-server -a localhost -p 3001" "open http://localhost:3001/"'.
+19 error Failed at the cat-vs-dog@1.0.0 open script 'concurrently "http-server -a localhost -p 3000" "open http://localhost:3000/"'.
 19 error This is most likely a problem with the cat-vs-dog package,
 19 error not with npm itself.
 19 error Tell the author that this fails on your system:
-19 error     concurrently "http-server -a localhost -p 3001" "open http://localhost:3001/"
+19 error     concurrently "http-server -a localhost -p 3000" "open http://localhost:3000/"
 19 error You can get information on how to open an issue for this project with:
 19 error     npm bugs cat-vs-dog
 19 error Or if that isn't available, you can get their info via:
