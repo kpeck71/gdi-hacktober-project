@@ -1,5 +1,5 @@
 const DOG_API_URL = 'https://dog.ceo/api/breeds/image/random/9';
-const CAT_API_URL = 'https://api.thecatapi.com/v1/images/search?';
+const CAT_API_URL = 'https://api.thecatapi.com/v1/images/?limit=9&page=0&order=DESC';
 
 function get(url) {
   return new Promise(function(resolve, reject) {
@@ -46,14 +46,13 @@ function loadMore() {
   }, function(error) {
     console.error("Failed!", error);
   })
+  .then(get(CAT_API_URL)
+    .then(function(catResponse) {
+  		let catResp = JSON.parse(catResponse);
+      debugger;
+      console.log("Success for cats!", catResponse);
+     }, function(error) {
+      console.error("Failed!", error);
+     })
+   )
 }
-// .then(get(CAT_API_URL)
-//   .then(function(catResponse) {
-// 		let catResp = JSON.parse(catResponse);
-//
-//     console.log("Success for cats!", catResponse);
-//    }, function(error) {
-//     console.error("Failed!", error);
-//    })
-//   )
-// }
