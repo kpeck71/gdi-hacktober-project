@@ -35,5 +35,9 @@ img {
 
 .pets {
     text-decoration: none;
-  }
+}
+
+.pet-pick {
+    list-style-type: none;
+}
   
