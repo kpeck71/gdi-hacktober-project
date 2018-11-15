@@ -42,15 +42,26 @@ function getCats(url) {
 }
 
 function loadImage(url) {
-	const list = document.getElementById("pets");
+	const cats-list = document.getElementById("cats-list");
+  const dogs-list = document.getElementById("dogs-list");
   const li = document.createElement("li");
   const img = document.createElement("img");
 
-  list.appendChild(li);
-  li.appendChild(img);
-  img.setAttribute('src', url);
-  li.setAttribute('class', 'pet-pic');
-  //img.setAttribute('onClick', createSelectPlayerInsideThisFunction// 'selectPlayer()');
+// how to DRY this up, pass in ${cats} or {dogs}
+  if (cats) {
+    cats-list.appendChild(li);
+    li.appendChild(img);
+    img.setAttribute('src', url);
+    li.setAttribute('class', 'cat-pic');
+  }
+  if (dogs) {
+    dogs-list.appendChild(li);
+    li.appendChild(img);
+    img.setAttribute('src', url);
+    li.setAttribute('class', 'cat-pic');
+
+  }
+    //img.setAttribute('onClick', createSelectPlayerInsideThisFunction// 'selectPlayer()');
 }
 
 
