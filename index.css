@@ -5,30 +5,82 @@ img {
   padding: 20px;
 }
 
-.current-player-card {
+.player-card {
   border:1px solid;
-  width: 25%;
-
+  width: 150px;
+  height: 150px;
+  padding: 20px ;
+  margin: 10px;
+  transition:
 }
+
+.player-card .card-facts {
+  border: 1px dotted black;
+  float: left;
+  width: 60%;
+  /* height: 100% */
+}
+
+.player-card p#name {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.player-card .card-img {
+  border: 1px dotted black;
+  float: right;
+  width: 38%;
+  /* height: 100% */
+}
+
+/* get card-img and card-facts side by side (CSS grid course) */
+
+#game-play {
+  width: 80%
+}
+
+.current {
+  width: 40%;
+  float: left;
+  border: 2px solid purple;
+  width: 350px;
+  height: 350px;
+}
+
+.other {
+  width: 40%;
+  float: right;
+  border: 2px solid green;
+  width: 350px;
+  height: 350px;
+}
+
+.cats-list, .dogs-list > .player-card:hover {
+  width: 300px;
+  height: 300px;
+}
+
 .scoreboard {
   font-size: 2em;
-  color: grey;
   width: 100%;
+  border: 1px solid black;
+  height: 25%
 }
 
 .score-section {
+  margin: 10px;
   color: red;
+  border: 1px solid grey;
 }
 
-.cat score-section {
-  align: right;
+.scoreboard .cat {
+  float: left;
 }
 
-.dog score-section {
-  align: left;
+.scoreboard .dog {
+  float: right;
 }
 
 .pet-pic {
     list-style-type: none;
 }
-  
