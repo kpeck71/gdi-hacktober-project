@@ -2,12 +2,15 @@
   <head>
     <title>Cat vs Dogs</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="gameplay.js"></script>
-    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./js/index.js" ></script>
+    <script src="./js/gameplay.js" ></script>
+
   </head>
 
-  <body onLoad=loadMore()>
+  <!-- <body onLoad=loadMore()> -->
+  <body>
 
     <div class="scoreboard">
         <div class="dog score-section">
@@ -24,7 +27,7 @@
     </div>
 
     <div>
-      <ul id="cats-list">
+      <ul id="catsList">
         <div class="player-card">
             Cat Sample Here
         </div>
@@ -35,7 +38,7 @@
     </div>
 
     <div>
-      <ul id="dogs-list">
+      <ul id="dogsList">
         <div class="player-card">
             Dog Sample Here
         </div>
@@ -50,6 +53,7 @@
       <div class="current player-card">
           <div class="card-img">
             Image goes here
+            <button id="makeMove">Make Move</button>
           </div>
           <div class="card-facts">
             <p id="name">Name: XYZ</p>
