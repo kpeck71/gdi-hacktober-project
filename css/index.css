@@ -84,3 +84,15 @@ img {
 .pet-pic {
     list-style-type: none;
 }
+
+#player-buttons li a {
+  text-decoration: none;
+  color: tomato;
+  display: block;
+}
+
+#player-buttons li a:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: #33B5E5;
+}
